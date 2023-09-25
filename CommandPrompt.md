@@ -1,5 +1,3 @@
-#ITN106-FALL2023
-
 # Windows Command Prompt Tutorial
 
 The Windows Command Prompt is a powerful tool for managing and interacting with your computer through text-based commands.
