@@ -1,6 +1,6 @@
 # Windows PowerShell Tutorial
 
-PowerShell is a robust command-line shell and scripting language that's built into Windows. It offers more capabilities and flexibility than the standard Command Prompt. In this tutorial, we will cover the fundamentals of Windows PowerShell, including navigation, basic commands, scripting, and examples.
+PowerShell is a robust command-line shell and scripting language built into Windows. It offers more capabilities and flexibility than the standard Command Prompt.
 
 ## Table of Contents
 1. **Accessing PowerShell**
@@ -98,5 +98,3 @@ You can use PowerShell to start or stop services. For example, to stop the Print
 # Stop the Print Spooler service
 Stop-Service -Name "Spooler"
 ```
-
-This tutorial covers the basics of Windows PowerShell. As you become more familiar with it, you can explore more advanced features, modules, and scripting techniques to streamline your administrative tasks and automation efforts.
