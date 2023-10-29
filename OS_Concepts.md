@@ -1,3 +1,7 @@
+Explain the relation between:
+
+Processes, Threads, scheduling, memory management, inter-process communication, synchronization, I/O management, virtualization, remote procedure calls using one example (Platform: Windows 11 OS)
+
 Let's explore the relationship between various operating system concepts using Windows 11 as our platform. We'll use the example of a web browser, such as Microsoft Edge, to illustrate these concepts.
 
 1. **Processes and Threads:**
