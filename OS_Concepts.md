@@ -2,7 +2,7 @@ Explain the relation between:
 
 Processes, Threads, scheduling, memory management, inter-process communication, synchronization, I/O management, virtualization, remote procedure calls using one example (Platform: Windows 11 OS)
 
-Let's explore the relationship between various operating system concepts using Windows 11 as our platform. We'll use the example of a web browser, such as Microsoft Edge, to illustrate these concepts.
+We'll use the example of a web browser, such as Microsoft Edge, to illustrate these concepts.
 
 1. **Processes and Threads:**
    - In Windows 11, a process represents an independent program or application, like Microsoft Edge.
@@ -37,8 +37,6 @@ Explain the above scenario step-by-step for below concepts:
 
 Processes, Threads, scheduling, memory management, inter-process communication, synchronization, I/O management, virtualization, remote procedure calls
 
-Sure, let's break down the scenario of visiting Canvas and logging in using Google Chrome on Windows 11 in terms of the various computer science concepts you mentioned:
-
 1. **Processes**:
    - When you open Google Chrome, it initiates a new process. Each process in an operating system represents an independent program execution with its own memory space.
 
@@ -67,3 +65,47 @@ Sure, let's break down the scenario of visiting Canvas and logging in using Goog
    - While not typically used within a single application like Chrome, RPC can be relevant when applications communicate with remote servers or services over a network. In this scenario, Chrome may use RPC to communicate with Google's servers for services like signing in with your Google account.
 
 To summarize, when you visit Canvas and log in using Google Chrome on Windows 11, multiple processes and threads are involved in handling different aspects of the browser's operation. These processes communicate with each other using various synchronization and IPC mechanisms while managing memory, handling I/O, and interacting with remote services through RPC as needed. The operating system's scheduler ensures that these processes and threads are allocated CPU time fairly.
+
+Provide definitions with example for each one of the below terms:
+
+1. **User-mode**:
+   - *Definition*: User-mode refers to a protected mode of operation in which most application software runs. It has limited access to hardware and system resources for security and stability.
+   - *Example*: A web browser, like Google Chrome, runs in user-mode, isolating it from the core operating system for security reasons.
+
+2. **Applications**:
+   - *Definition*: Applications are software programs designed for specific tasks or functions, such as word processors, web browsers, and games.
+   - *Example*: Microsoft Word and Photoshop are examples of applications used for document editing and image manipulation, respectively.
+
+3. **Subsystem Servers**:
+   - *Definition*: Subsystem servers are components of the Windows operating system responsible for handling specific subsystems, such as the Win32 subsystem for running graphical applications.
+   - *Example*: The Win32 subsystem server manages graphical user interface (GUI) applications running on Windows.
+
+4. **DLLs (Dynamic Link Libraries)**:
+   - *Definition*: DLLs are files that contain reusable code and data that multiple programs can use simultaneously. They are dynamically linked to applications at runtime.
+   - *Example*: "user32.dll" is a DLL that contains functions related to the Windows user interface.
+
+5. **System Services**:
+   - *Definition*: System services are background processes or tasks that provide essential functionality to the operating system and applications.
+   - *Example*: The "Windows Update" service is responsible for updating the operating system with security patches and feature updates.
+
+6. **Login/GINA**:
+   - *Definition*: GINA (Graphical Identification and Authentication) is a component responsible for user login and authentication in older Windows versions.
+   - *Example*: The Windows XP login screen utilized GINA to authenticate users and allow access to the system.
+
+7. **Kernel32**:
+   - *Definition*: Kernel32 is a dynamic link library containing core functions used by user-mode applications to interact with the Windows kernel.
+   - *Example*: User applications often use functions from "kernel32.dll" for tasks like file operations and memory management.
+
+8. **Critical Services**:
+   - *Definition*: Critical services are essential system services that must run for the operating system to function properly.
+   - *Example*: The "Windows Event Log" service is considered critical because it records system events and errors.
+
+9. **User32/GDI**:
+   - *Definition*: User32 and GDI (Graphics Device Interface) are libraries providing functions for GUI operations and graphical rendering in Windows.
+   - *Example*: "user32.dll" contains functions for creating windows and handling user input, while GDI functions are used for drawing graphics on the screen.
+
+10. **Ntdll / run-time library**:
+    - *Definition*: Ntdll is a core component that provides system-level functionality and interacts with the Windows kernel. It also includes the run-time library for system-level programming.
+    - *Example*: Ntdll.dll contains functions that enable lower-level system operations, such as memory management and process control.
+
+Please let me know if you'd like definitions and examples for the remaining terms on your list.
